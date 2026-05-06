@@ -1,0 +1,8 @@
+prefix=/home/p/bishe/src/Course_Learning-motion_planning/Project_1/devel
+
+Name: map_generator
+Description: Description of map_generator
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,20 @@
+<!-- matlab.launch -->
+<launch>
+    <!-- ============================================ -->
+    <!-- 数据记录配置 -->
+    <!-- ============================================ -->
+    <arg name="output_dir" default="/home/p/bishe/src/Course_Learning-motion_planning/Project_1/src/src/bag"/>
+    <arg name="bag_name" default="data_recording"/>
+    
+    <!-- ============================================ -->
+    <!-- ROS bag记录节点 -->
+    <!-- ============================================ -->
+    <node pkg="rosbag" type="record" name="rosbag_record" output="screen"
+          args="-o $(arg output_dir)/$(arg bag_name) 
+                /visual_slam/odom 
+                /random_complex/static_obstacle_markers 
+                /random_complex/obstacle_markers 
+                /trajectory_generator_node/vis_path 
+                /trajectory_generator_node/trajectory">
+    </node>
+</launch>

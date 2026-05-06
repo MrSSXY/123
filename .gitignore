@@ -1,0 +1,33 @@
+# 忽略 build 目录
+build/
+build_debug/
+build_release/
+
+# 忽略 CMake 生成的文件
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+
+# 忽略编译产物
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# 忽略 ROS/Catkin 生成的文件
+catkin_generated/
+devel/
+install/
+*.stamp
+
+# 忽略 IDE 配置
+.idea/
+.vscode/
+*.swp
+*.bak
+
+# 忽略临时文件
+*.tmp
+*.log

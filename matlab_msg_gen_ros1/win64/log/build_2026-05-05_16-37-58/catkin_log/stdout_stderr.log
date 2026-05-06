@@ -1,0 +1,289 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.31
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x86_x64'
+-- The C compiler identification is MSVC 19.44.35226.0
+-- The CXX compiler identification is MSVC 19.44.35226.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: D:/bag/matlab_msg_gen_ros1/win64/devel
+-- Using CMAKE_PREFIX_PATH: E:\MATLAB\R2024b\sys\ros1\win64\ros1;E:/MATLAB/R2024b/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: E:/MATLAB/R2024b/sys/ros1/win64/ros1;E:/MATLAB/R2024b/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe (found suitable version "3.9.13", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe
+-- Using default Python package layout
+-- Found PY_em: C:\Users\86186\AppData\Roaming\MATHWO~1\MATLAB\R2024b\ros1\win64\venv\lib\site-packages\em.py  
+-- Using empy: C:/Users/86186/AppData/Roaming/MATHWO~1/MATLAB/R2024b/ros1/win64/venv/lib/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+The system cannot find the batch label specified - GenerateTempFilename
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - quadrotor_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'quadrotor_msgs'
+-- ==> add_subdirectory(quadrotor_msgs)
+CMake Warning at E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: geneus
+Call Stack (most recent call first):
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  quadrotor_msgs/CMakeLists.txt:24 (find_package)
+
+
+CMake Warning at E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: genlisp
+Call Stack (most recent call first):
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  quadrotor_msgs/CMakeLists.txt:24 (find_package)
+
+
+CMake Warning at E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: gennodejs
+Call Stack (most recent call first):
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  quadrotor_msgs/CMakeLists.txt:24 (find_package)
+
+
+-- Using these message generators: gencpp;genpy
+-- quadrotor_msgs: 13 messages, 0 services
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: D:/bag/matlab_msg_gen_ros1/win64/build
+[1/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/Serial.msg std_msgs/Header"
+[2/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/Corrections.msg "
+[3/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/SO3Command.msg geometry_msgs/Quaternion:quadrotor_msgs/AuxCommand:std_msgs/Header:geometry_msgs/Vector3"
+[4/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/StatusData.msg std_msgs/Header"
+[5/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/TRPYCommand.msg std_msgs/Header:quadrotor_msgs/AuxCommand"
+[6/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/Gains.msg "
+[7/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/PositionCommand.msg geometry_msgs/Point:std_msgs/Header:geometry_msgs/Vector3"
+[8/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/PPROutputData.msg std_msgs/Header"
+[9/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/OutputData.msg std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Vector3"
+[10/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/AuxCommand.msg "
+[11/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/PolynomialTrajectory.msg std_msgs/Header"
+[12/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/LQRTrajectory.msg std_msgs/Header"
+[13/57] cmd.exe /C "cd /D D:\bag\matlab_msg_gen_ros1\win64\build\quadrotor_msgs && D:\bag\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/Users/86186/AppData/Roaming/MathWorks/MATLAB/R2024b/ros1/win64/venv/Scripts/python.exe E:/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs D:/bag/matlab_msg_gen_ros1/win64/src/quadrotor_msgs/msg/Odometry.msg geometry_msgs/TwistWithCovariance:nav_msgs/Odometry:geometry_msgs/Vector3:geometry_msgs/PoseWithCovariance:geometry_msgs/Twist:std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/Quaternion"
+[14/57] Generating C++ code from quadrotor_msgs/AuxCommand.msg
+[15/57] Generating C++ code from quadrotor_msgs/Odometry.msg
+[16/57] Generating C++ code from quadrotor_msgs/Corrections.msg
+[17/57] Generating C++ code from quadrotor_msgs/PPROutputData.msg
+[18/57] Generating C++ code from quadrotor_msgs/PolynomialTrajectory.msg
+[19/57] Generating C++ code from quadrotor_msgs/OutputData.msg
+[20/57] Generating C++ code from quadrotor_msgs/SO3Command.msg
+[21/57] Generating C++ code from quadrotor_msgs/Gains.msg
+[22/57] Generating Python from MSG quadrotor_msgs/TRPYCommand
+[23/57] Generating C++ code from quadrotor_msgs/LQRTrajectory.msg
+[24/57] Building CXX object CMakeFiles\Project__setup_util.py_exec_install_python.dir\catkin_generated\add_python_executable\Project__setup_util.py_exec_install_python\_setup_util.cpp.obj
+[25/57] Generating Python from MSG quadrotor_msgs/OutputData
+[26/57] Generating Python from MSG quadrotor_msgs/StatusData
+[27/57] Generating C++ code from quadrotor_msgs/Serial.msg
+[28/57] Generating C++ code from quadrotor_msgs/TRPYCommand.msg
+[29/57] Generating C++ code from quadrotor_msgs/PositionCommand.msg
+[30/57] Generating Python from MSG quadrotor_msgs/Corrections
+[31/57] Generating Python from MSG quadrotor_msgs/LQRTrajectory
+[32/57] Generating Python from MSG quadrotor_msgs/PPROutputData
+[33/57] Generating C++ code from quadrotor_msgs/StatusData.msg
+[34/57] Generating Python from MSG quadrotor_msgs/Odometry
+[35/57] Generating Python from MSG quadrotor_msgs/PolynomialTrajectory
+[36/57] Linking CXX executable catkin_generated\windows_wrappers\Project__setup_util.py_exec_install_python\_setup_util.exe
+[37/57] Generating Python from MSG quadrotor_msgs/AuxCommand
+[38/57] Generating Python from MSG quadrotor_msgs/PositionCommand
+[39/57] Generating Python from MSG quadrotor_msgs/Gains
+[40/57] Generating Python from MSG quadrotor_msgs/SO3Command
+[41/57] Generating Python from MSG quadrotor_msgs/Serial
+[42/57] Generating Python msg __init__.py for quadrotor_msgs
+[43/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_PPROutputData_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[44/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_Odometry_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[45/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_TRPYCommand_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[46/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_LQRTrajectory_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[47/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_Corrections_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[48/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_Serial_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[49/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_PolynomialTrajectory_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[50/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_OutputData_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[51/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_Gains_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[52/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_PositionCommand_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[53/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_AuxCommand_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[54/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_SO3Command_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[55/57] Building CXX object quadrotor_msgs\CMakeFiles\quadrotor_msgs_matlab.dir\src\quadrotor_msgs_StatusData_message.cpp.obj
+E:\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[56/57] Linking CXX shared library D:\bag\matlab_msg_gen_ros1\win64\devel\bin\quadrotor_msgs_matlab.dll
+[56/57] Install the project...
+-- Install configuration: "Release"
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/_setup_util.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/_setup_util.exe
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/env.bat
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/setup.bat
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/local_setup.bat
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/.rosinstall
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/AuxCommand.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/Corrections.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/Gains.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/LQRTrajectory.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/Odometry.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/OutputData.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/PPROutputData.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/PolynomialTrajectory.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/PositionCommand.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/SO3Command.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/Serial.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/StatusData.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/msg/TRPYCommand.msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/cmake/quadrotor_msgs-msg-paths.cmake
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/AuxCommand.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/Corrections.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/Gains.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/LQRTrajectory.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/Odometry.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/OutputData.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/PolynomialTrajectory.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/PositionCommand.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/PPROutputData.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/Serial.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/SO3Command.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/StatusData.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/TRPYCommand.h
+Listing 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\__init__.py'...
+Listing 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_AuxCommand.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_Corrections.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_Gains.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_LQRTrajectory.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_Odometry.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_OutputData.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_PPROutputData.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_PolynomialTrajectory.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_PositionCommand.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_SO3Command.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_Serial.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_StatusData.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\_TRPYCommand.py'...
+Compiling 'D:/bag/matlab_msg_gen_ros1/win64/devel/lib/site-packages/quadrotor_msgs\\msg\\__init__.py'...
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_AuxCommand.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_Corrections.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_Gains.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_LQRTrajectory.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_Odometry.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_OutputData.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_PolynomialTrajectory.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_PositionCommand.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_PPROutputData.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_Serial.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_SO3Command.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_StatusData.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/_TRPYCommand.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__init__.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_AuxCommand.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_Corrections.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_Gains.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_LQRTrajectory.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_Odometry.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_OutputData.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_PolynomialTrajectory.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_PositionCommand.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_PPROutputData.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_Serial.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_SO3Command.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_StatusData.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/_TRPYCommand.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/msg/__pycache__/__init__.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/__init__.py
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/__pycache__
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/site-packages/quadrotor_msgs/__pycache__/__init__.cpython-39.pyc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/pkgconfig/quadrotor_msgs.pc
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/cmake/quadrotor_msgs-msg-extras.cmake
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/cmake/quadrotor_msgsConfig.cmake
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/cmake/quadrotor_msgsConfig-version.cmake
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/share/quadrotor_msgs/package.xml
+-- Up-to-date: D:/bag/matlab_msg_gen_ros1/win64/install/include
+-- Up-to-date: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/include/quadrotor_msgs/visibility_control.h
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/lib/quadrotor_msgs_matlab.lib
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/bin/quadrotor_msgs_matlab.dll
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m/
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/auxCommand.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/corrections.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/gains.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/lQRTrajectory.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/odometry.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/outputData.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/polynomialTrajectory.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/positionCommand.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/pPROutputData.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/serial.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/sO3Command.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/statusData.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+quadrotor_msgs/tRPYCommand.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/AuxCommand.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/Corrections.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/Gains.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/LQRTrajectory.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/Odometry.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/OutputData.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/PolynomialTrajectory.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/PositionCommand.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/PPROutputData.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/Serial.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/SO3Command.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/StatusData.m
+-- Installing: D:/bag/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+quadrotor_msgs/TRPYCommand.m
+Base path: D:\bag\matlab_msg_gen_ros1\win64
+Source space: D:\bag\matlab_msg_gen_ros1\win64\src
+Build space: D:\bag\matlab_msg_gen_ros1\win64\build
+Devel space: D:\bag\matlab_msg_gen_ros1\win64\devel
+Install space: D:\bag\matlab_msg_gen_ros1\win64\install
+Copying file from "E:\MATLAB\R2024b\sys\ros1\win64\ros1\share\catkin\cmake\toplevel.cmake" to "D:\bag\matlab_msg_gen_ros1\win64\src\CMakeLists.txt"
+####
+#### Running command: "cmake D:\bag\matlab_msg_gen_ros1\win64\src -DALIAS_ROS1_CLASS_LOADER=1 -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=E:\MATLAB\R2024b\sys\ros1\win64\ros1;E:/MATLAB/R2024b/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCATKIN_DEVEL_PREFIX=D:\bag\matlab_msg_gen_ros1\win64\devel -DCMAKE_INSTALL_PREFIX=D:\bag\matlab_msg_gen_ros1\win64\install -G Ninja" in "D:\bag\matlab_msg_gen_ros1\win64\build"
+####
+####
+#### Running command: "ninja install install -j12 -l12" in "D:\bag\matlab_msg_gen_ros1\win64\build"
+####

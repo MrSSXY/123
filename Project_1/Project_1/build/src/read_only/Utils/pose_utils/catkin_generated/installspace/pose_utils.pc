@@ -1,0 +1,8 @@
+prefix=/home/p/bishe/src/Course_Learning-motion_planning/Project_1/install
+
+Name: pose_utils
+Description: Description of pose_utils
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpose_utils
+Requires: 

@@ -1,0 +1,58 @@
+<launch>
+    <!-- 地图参数 -->
+    <arg name="map_size_x" default="20.0"/>
+    <arg name="map_size_y" default="20.0"/>
+    <arg name="map_size_z" default="5.0"/>
+    <arg name="map_frame_name" default="map"/>
+
+    <!-- 初始位置 -->
+    <arg name="init_x" default="0.0"/>
+    <arg name="init_y" default="0.0"/>
+
+    <!-- 障碍物参数 -->
+    <arg name="static_obs_num" default="30"/>
+    <arg name="dynamic_obs_enabled" default="true"/>
+    <arg name="dynamic_update_rate" default="2.0"/>
+
+    <!-- 随机地图生成器 -->
+    <node pkg="map_generator" name="random_complex" type="random_complex" output="screen">
+        <param name="init_state_x" value="$(arg init_x)"/>
+        <param name="init_state_y" value="$(arg init_y)"/>
+
+        <param name="map/x_size" value="$(arg map_size_x)"/>
+        <param name="map/y_size" value="$(arg map_size_y)"/>
+        <param name="map/z_size" value="$(arg map_size_z)"/>
+        <param name="map_frame_name" value="$(arg map_frame_name)"/>
+
+        <param name="map/obs_num" value="$(arg static_obs_num)"/>
+        <param name="map/circle_num" value="0"/>
+        <param name="map/resolution" value="0.2"/>
+
+        <param name="ObstacleShape/lower_rad" value="0.3"/>
+        <param name="ObstacleShape/upper_rad" value="0.8"/>
+        <param name="ObstacleShape/lower_hei" value="3.0"/>
+        <param name="ObstacleShape/upper_hei" value="7.0"/>
+
+        <param name="CircleShape/lower_circle_rad" value="0.3"/>
+        <param name="CircleShape/upper_circle_rad" value="0.8"/>
+
+        <param name="sensing/rate" value="1.0"/>
+        <param name="dynamic_obstacles" value="$(arg dynamic_obs_enabled)"/>
+        <param name="dynamic_update_rate" value="$(arg dynamic_update_rate)"/>
+    </node>
+
+    <!-- 地图渲染节点 -->
+    <node pkg="map_render" type="pcl_render_node" name="pcl_render_node" output="screen">
+        <param name="sensing_horizon" value="10.0"/>
+        <param name="sensing_rate" value="30.0"/>
+        <param name="estimation_rate" value="30.0"/>
+        <param name="map/x_size" value="$(arg map_size_x)"/>
+        <param name="map/y_size" value="$(arg map_size_y)"/>
+        <param name="map/z_size" value="$(arg map_size_z)"/>
+        <param name="map_frame_name" value="$(arg map_frame_name)"/>
+
+        <remap from="~global_map" to="/random_complex/global_map"/>
+        <remap from="~global_ground" to="/random_complex/global_ground"/>
+        <remap from="~odometry" to="/drone_1/visual_slam/odom"/>
+    </node>
+</launch>

@@ -1,0 +1,28 @@
+<launch>
+  <!-- 启动 Gazebo 空世界，不使用仿真时间（避免与原有仿真器冲突） -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="use_sim_time" value="false"/>
+    <arg name="gui" value="true"/>
+    <arg name="paused" value="false"/>
+    <arg name="physics" value="ode"/>
+  </include>
+
+  <!-- 生成 PX4 的 iris 无人机模型（SDF 格式），使用绝对路径 -->
+  <node name="spawn_iris" pkg="gazebo_ros" type="spawn_model"
+        args="-file /home/p/PX4-Autopilot/Tools/sitl_gazebo/models/iris/iris.sdf -sdf -model iris -x 0 -y 0 -z 0"
+        output="screen"/>
+
+  <!-- 将点云转换为 Gazebo 障碍物模型 -->
+  <node pkg="trajectory_generator" type="pointcloud_to_gazebo_boxes.py" name="pointcloud_to_gazebo_boxes" output="screen">
+    <param name="voxel_size" value="0.2"/>
+    <param name="eps" value="0.3"/>
+    <param name="min_samples" value="5"/>
+    <param name="box_padding" value="0.05"/>
+    <param name="update_interval" value="0.05"/>  <!-- 50ms节流间隔 -->
+    <param name="model_type" value="pine_tree"/>  <!-- 模型类型：cube（长方体）或pine_tree（松树） -->
+    <param name="gazebo_model_path" value="~/.gazebo/models"/>  <!-- Gazebo模型库路径 -->
+  </node>
+
+  <!-- 将里程计同步到 Gazebo 无人机模型（需修改 odom_to_gazebo.py 中的 model_name 为 "iris"） -->
+  <node pkg="trajectory_generator" type="odom_to_gazebo.py" name="odom_to_gazebo" output="screen"/>
+</launch>

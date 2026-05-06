@@ -1,0 +1,46 @@
+function [data, info] = sO3Command
+%SO3Command gives an empty data for quadrotor_msgs/SO3Command
+% Copyright 2019-2020 The MathWorks, Inc.
+%#codegen
+data = struct();
+data.MessageType = 'quadrotor_msgs/SO3Command';
+[data.Header, info.Header] = ros.internal.ros.messages.std_msgs.header;
+info.Header.MLdataType = 'struct';
+[data.Force, info.Force] = ros.internal.ros.messages.geometry_msgs.vector3;
+info.Force.MLdataType = 'struct';
+[data.Orientation, info.Orientation] = ros.internal.ros.messages.geometry_msgs.quaternion;
+info.Orientation.MLdataType = 'struct';
+[data.KR, info.KR] = ros.internal.ros.messages.ros.default_type('double',3);
+[data.KOm, info.KOm] = ros.internal.ros.messages.ros.default_type('double',3);
+[data.Aux, info.Aux] = ros.internal.ros.custommessages.quadrotor_msgs.auxCommand;
+info.Aux.MLdataType = 'struct';
+info.MessageType = 'quadrotor_msgs/SO3Command';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,23);
+info.MatPath{1} = 'header';
+info.MatPath{2} = 'header.seq';
+info.MatPath{3} = 'header.stamp';
+info.MatPath{4} = 'header.stamp.sec';
+info.MatPath{5} = 'header.stamp.nsec';
+info.MatPath{6} = 'header.frame_id';
+info.MatPath{7} = 'force';
+info.MatPath{8} = 'force.x';
+info.MatPath{9} = 'force.y';
+info.MatPath{10} = 'force.z';
+info.MatPath{11} = 'orientation';
+info.MatPath{12} = 'orientation.x';
+info.MatPath{13} = 'orientation.y';
+info.MatPath{14} = 'orientation.z';
+info.MatPath{15} = 'orientation.w';
+info.MatPath{16} = 'kR';
+info.MatPath{17} = 'kOm';
+info.MatPath{18} = 'aux';
+info.MatPath{19} = 'aux.current_yaw';
+info.MatPath{20} = 'aux.kf_correction';
+info.MatPath{21} = 'aux.angle_corrections';
+info.MatPath{22} = 'aux.enable_motors';
+info.MatPath{23} = 'aux.use_external_yaw';

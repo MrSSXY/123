@@ -1,0 +1,67 @@
+The system is: Windows - 10.0.22631 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.44.35226 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.44.35226.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/bag/matlab_msg_gen_ros1/win64/build/CMakeFiles/3.25.0/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.44.35226 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.44.35226.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "D:/bag/matlab_msg_gen_ros1/win64/build/CMakeFiles/3.25.0/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/bag/matlab_msg_gen_ros1/win64/build/CMakeFiles/CMakeScratch/TryCompile-ceekjw
+
+Run Build Command(s):E:/MATLAB/R2024b/toolbox/shared/coder/ninja/win64/ninja.exe cmTC_f7ac4 && [1/2] Building C object CMakeFiles\cmTC_f7ac4.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_f7ac4.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/bag/matlab_msg_gen_ros1/win64/build/CMakeFiles/CMakeScratch/TryCompile-d5617s
+
+Run Build Command(s):E:/MATLAB/R2024b/toolbox/shared/coder/ninja/win64/ninja.exe cmTC_acaac && [1/4] Scanning E:\MATLAB\R2024b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp for CXX dependencies
+[2/4] Generating CXX dyndep file CMakeFiles\cmTC_acaac.dir\CXX.dd
+[3/4] Building CXX object CMakeFiles\cmTC_acaac.dir\CMakeCXXCompilerABI.cpp.obj
+[4/4] Linking CXX executable cmTC_acaac.exe
+
+
+

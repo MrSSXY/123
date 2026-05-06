@@ -1,0 +1,2 @@
+quadrotor_msgs
+-DALIAS_ROS1_CLASS_LOADER=1 -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=E:\MATLAB\R2024b\sys\ros1\win64\ros1;E:/MATLAB/R2024b/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCATKIN_DEVEL_PREFIX=D:\bag\matlab_msg_gen_ros1\win64\devel -DCMAKE_INSTALL_PREFIX=D:\bag\matlab_msg_gen_ros1\win64\install -G Ninja

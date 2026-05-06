@@ -1,0 +1,39 @@
+function [data, info] = serial
+%Serial gives an empty data for quadrotor_msgs/Serial
+% Copyright 2019-2020 The MathWorks, Inc.
+%#codegen
+data = struct();
+data.MessageType = 'quadrotor_msgs/Serial';
+[data.SO3CMD, info.SO3CMD] = ros.internal.ros.messages.ros.default_type('uint8',1, 115);
+[data.TRPYCMD, info.TRPYCMD] = ros.internal.ros.messages.ros.default_type('uint8',1, 112);
+[data.STATUSDATA, info.STATUSDATA] = ros.internal.ros.messages.ros.default_type('uint8',1, 99);
+[data.OUTPUTDATA, info.OUTPUTDATA] = ros.internal.ros.messages.ros.default_type('uint8',1, 100);
+[data.PPROUTPUTDATA, info.PPROUTPUTDATA] = ros.internal.ros.messages.ros.default_type('uint8',1, 116);
+[data.PPRGAINS, info.PPRGAINS] = ros.internal.ros.messages.ros.default_type('uint8',1, 103);
+[data.Header, info.Header] = ros.internal.ros.messages.std_msgs.header;
+info.Header.MLdataType = 'struct';
+[data.Channel, info.Channel] = ros.internal.ros.messages.ros.default_type('uint8',1);
+[data.Type, info.Type] = ros.internal.ros.messages.ros.default_type('uint8',1);
+[data.Data, info.Data] = ros.internal.ros.messages.ros.default_type('uint8',NaN);
+info.MessageType = 'quadrotor_msgs/Serial';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,15);
+info.MatPath{1} = 'SO3_CMD';
+info.MatPath{2} = 'TRPY_CMD';
+info.MatPath{3} = 'STATUS_DATA';
+info.MatPath{4} = 'OUTPUT_DATA';
+info.MatPath{5} = 'PPR_OUTPUT_DATA';
+info.MatPath{6} = 'PPR_GAINS';
+info.MatPath{7} = 'header';
+info.MatPath{8} = 'header.seq';
+info.MatPath{9} = 'header.stamp';
+info.MatPath{10} = 'header.stamp.sec';
+info.MatPath{11} = 'header.stamp.nsec';
+info.MatPath{12} = 'header.frame_id';
+info.MatPath{13} = 'channel';
+info.MatPath{14} = 'type';
+info.MatPath{15} = 'data';
